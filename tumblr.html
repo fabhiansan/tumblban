@@ -73,7 +73,7 @@ nav{
     
     box-sizing: border-box;
     height: 60px;
-    background-color: 
+    background-color: transparent;
     float: left;
     display: flex;
     
@@ -87,9 +87,7 @@ nav input{
     border-radius: 20px;    
 }
 
-input: tar{
-    background-color: white;
-}
+
 
 .searchbox {
     width: 220px;
@@ -133,7 +131,7 @@ input: tar{
     position: relative;
     width: 16px;
     box-sizing: border-box;
-    color: 
+    color: lightgrey;
 }
 
 .dot1, .dot2, .dot3, .dot4, .dot5:hover{
@@ -197,28 +195,7 @@ footer{
     <script>
     function submitFunction()
 {
-    var x=document.forms["myform"]["username"].value;
-    var y=document.forms["login"]["password"].value;
-
-    if(x==null||x=""||y=null||y="")
-    {
-        alert("both fields can't be empty.");
-    }
-    else(
-        if(x=="webi")
-        {
-            if(y="12345")
-            {
-                alert("login sucessful")
-            }               
-        }
-        else{
-            alert("Password do not match")
-        }
-    )
-    else(
-        alert("User doesn't exist")
-    )
+    
 
 
 }
@@ -240,8 +217,8 @@ footer{
         <h5>BAN</h5>
         <br><br>
         <form name="myform" onsubmit="submitfunction()">
-            <input type="text" name="username"><br>
-            <input type="password" name="password"><br>
+            <input type="text" name="username" placeholder="username or email"><br>
+            <input type="password" name="password" placeholder="password"><br>
             <input id="tombol" type="submit" value="submit">
         </form>
         

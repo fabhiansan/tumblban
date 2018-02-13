@@ -5,6 +5,195 @@
 <head>
     <title>Log in | Tumblr</title>
     <link href="./tumblr.css" rel="stylesheet">
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-position: center;
+    background-image: url(./giphy.gif);
+    background-repeat: no-repeat;
+   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+    overflow: auto;
+    min-width: 540px;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.mainbody h1{
+    font-size: 70px;
+ 
+ }  
+
+.mainbody{
+  
+   width: 100%;
+   
+   text-align: center;
+   height: 300px;
+   top: 10px;
+   padding-top: 10% ;
+   color: white;
+}   
+#tombol {
+    width: 172px;
+    background-color: #529ECC; 
+    color: white;
+    margin: 4px;
+    padding: 0px;
+    box-shadow: #529ECC;
+    border: none;
+   }
+
+input{
+    width: 172px;
+    background-color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    margin: 4px;
+    padding: 0px;
+    box-shadow: #529ECC;
+    border: none;
+   }
+
+
+
+nav img{
+    width: 27px;
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 3px solid black;
+}
+
+nav{
+    width: 100%;
+    
+    box-sizing: border-box;
+    height: 60px;
+    background-color: 
+    float: left;
+    display: flex;
+    
+}
+
+nav input{
+    background-color: transparent;
+    color: white;
+    font-style: italic;
+    border: none;
+    border-radius: 20px;    
+}
+
+input: tar{
+    background-color: white;
+}
+
+.searchbox {
+    width: 220px;
+    
+    margin-left: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    display: flex;
+    height: 35px;
+    
+    border-radius: 10px;
+    opacity: 100%;
+}
+
+.searchbox img{
+    margin: 8px 5px;
+    width: 20px;
+    height: 20px;
+}
+.searchbox form{
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+
+
+.dot{
+    left: 40px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+   transform: translateY(-70px)
+}
+.dot1, .dot2, .dot3, .dot4, .dot5{
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #fff;
+    cursor: pointer;
+    height: 16px;
+    margin-bottom: 10px;
+    opacity: .4;
+    position: relative;
+    width: 16px;
+    box-sizing: border-box;
+    color: 
+}
+
+.dot1, .dot2, .dot3, .dot4, .dot5:hover{
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #fff;
+    cursor: pointer;
+    height: 16px;
+    margin-bottom: 10px;
+    opacity: .4;
+    position: relative;
+    width: 16px;
+    box-sizing: border-box;
+    color: white; 
+}
+
+#cont_foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    
+   position: absolute;
+   bottom: 20px;
+}
+
+#kotak1{
+    float: left;
+    transform: translatex(-50%)
+}
+    
+#kotak1 h6{
+    margin-left: 30px;
+    float: left;
+    font-size: 20px;
+}
+
+#kotak2{
+  
+   float: right;
+   transform: translateX(70%)
+}
+
+#underfooter{
+    width: 100%;
+    text-align: center;
+    background-color: #529ECC;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+}
+    </style>
     
     <script>
     function submitFunction()
